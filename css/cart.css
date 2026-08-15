@@ -1,0 +1,21 @@
+/* =========================================================
+   ZORVANI — CART PAGE
+   ========================================================= */
+
+.page-cart .cart-product-image {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+}
+
+.page-cart .cart-summary {
+    align-self: start;
+}
+
+@media (max-width: 600px) {
+    .page-cart .table th:nth-child(2),
+    .page-cart .table td:nth-child(2) {
+        display: none;
+    }
+}

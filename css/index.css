@@ -1,0 +1,16 @@
+/* =========================================================
+   ZORVANI — HOME PAGE
+   Only home-specific rules live here.
+   Common styles are in css/style.css.
+   ========================================================= */
+
+.page-home .hero-copy .btn + .btn {
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 520px) {
+    .page-home .hero-copy .btn + .btn {
+        margin-left: 0;
+        margin-top: 0.6rem;
+    }
+}

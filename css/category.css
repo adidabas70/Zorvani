@@ -1,0 +1,126 @@
+/* =========================================================
+   ZORVANI — CATEGORY PAGE
+   ========================================================= */
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.1rem;
+}
+
+.category-card {
+    position: relative;
+    min-height: 330px;
+    overflow: hidden;
+    background: #101010;
+    border: 0.0625rem solid #252525;
+    border-radius: var(--radius-md);
+}
+
+.category-card::after {
+    content: "";
+    position: absolute;
+    inset: 35% 0 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.92));
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    min-height: 330px;
+    object-fit: cover;
+    transition: transform 0.45s ease, filter 0.45s ease;
+}
+
+.category-card:hover img {
+    transform: scale(1.04);
+    filter: brightness(0.72);
+}
+
+.category-card .overlay {
+    position: absolute;
+    z-index: 1;
+    left: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.4rem;
+}
+
+.category-card .overlay span {
+    color: #aaa;
+    font-size: 0.65rem;
+}
+
+.category-card .overlay h2 {
+    margin: 0.15rem 0;
+    font-size: 1.8rem;
+}
+
+.category-card .overlay p {
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.category-card .overlay strong {
+    font-size: 0.7rem;
+}
+
+.category-featured {
+    margin-top: 2.2rem;
+    min-height: 260px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(115deg, #171717, #0b0b0b);
+    border: 0.0625rem solid #262626;
+    border-radius: var(--radius-md);
+}
+
+.category-featured .content {
+    padding: 2.2rem;
+}
+
+.category-featured h2 {
+    line-height: 1.15;
+}
+
+.category-featured p {
+    max-width: 31rem;
+    margin: 0.8rem 0 1.2rem;
+    font-size: 0.8rem;
+}
+
+.category-featured img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+@media (max-width: 850px) {
+    .category-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .category-featured {
+        grid-template-columns: 1fr;
+    }
+
+    .category-featured img {
+        height: 220px;
+    }
+}
+
+@media (max-width: 560px) {
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-card,
+    .category-card img {
+        min-height: 290px;
+    }
+
+    .category-featured .content {
+        padding: 1.5rem;
+    }
+}

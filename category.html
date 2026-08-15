@@ -1,28 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categories</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Categories | Zorvani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/common/style.css">
+  <link rel="stylesheet" href="css/category.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="home.html" class="logo">
-            🛍️ Zorvani
-        </a>
-        <div class="nav-links">
-            <a href="home.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="category.html">categories</a>
-            <a href="about.html">About us</a>
-            <a href="account.html"><i class="fa-solid fa-user"></i></a>
-            <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
-            <a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
-        </div>
-        
-    </nav>
+<header class="site-header">
+  <div class="topbar">
+    <span>🚚 Free Delivery on orders over ₹999</span>
+    <span>Track Order &nbsp; • &nbsp; Help &amp; Support &nbsp; • &nbsp; Returns</span>
+    <span>☎ Contact Us &nbsp; +91 7078409952</span>
+  </div>
+  <nav class="nav">
+    <a class="logo" href="index.html">ZORVANI</a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a class="active" href="category.html">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="navicons">
+      <a href="shop.html">⌕</a>
+      <a href="account.html">♙</a>
+      <a href="wishlist.html">♡</a>
+      <a href="cart.html">🛍</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container page">
+  <section class="intro">
+    <div class="eyebrow">EXPLORE ZORVANI</div>
+    <h1>Shop By Category</h1>
+    <p>Discover curated collections for every style, occasion, and everyday need.</p>
+  </section>
+
+  <section class="category-grid">
+    <a class="category-card" href="shop.html">
+      <img src="images/category-men.jpg" alt="Men's collection">
+      <div class="overlay">
+        <span>01</span>
+        <h2>Men</h2>
+        <p>Modern essentials &amp; everyday style</p>
+        <strong>Explore Collection →</strong>
+      </div>
+    </a>
+
+    <a class="category-card" href="shop.html">
+      <img src="images/category-women.jpg" alt="Women's collection">
+      <div class="overlay">
+        <span>02</span>
+        <h2>Women</h2>
+        <p>Elegant looks with a modern edge</p>
+        <strong>Explore Collection →</strong>
+      </div>
+    </a>
+
+    <a class="category-card" href="shop.html">
+      <img src="images/category-shoes.jpg" alt="Shoes collection">
+      <div class="overlay">
+        <span>03</span>
+        <h2>Shoes</h2>
+        <p>Streetwear, comfort &amp; performance</p>
+        <strong>Explore Collection →</strong>
+      </div>
+    </a>
+
+    <a class="category-card" href="shop.html">
+      <img src="images/category-accessories.jpg" alt="Accessories collection">
+      <div class="overlay">
+        <span>04</span>
+        <h2>Accessories</h2>
+        <p>Small details that complete your style</p>
+        <strong>Explore Collection →</strong>
+      </div>
+    </a>
+
+    <a class="category-card" href="shop.html">
+      <img src="images/category-bags.jpg" alt="Bags collection">
+      <div class="overlay">
+        <span>05</span>
+        <h2>Bags</h2>
+        <p>Practical silhouettes with premium character</p>
+        <strong>Explore Collection →</strong>
+      </div>
+    </a>
+
+    <a class="category-card" href="shop.html">
+      <img src="images/category-watches.jpg" alt="Watches collection">
+      <div class="overlay">
+        <span>06</span>
+        <h2>Watches</h2>
+        <p>Timeless pieces built for everyday wear</p>
+        <strong>Explore Collection →</strong>
+      </div>
+    </a>
+  </section>
+
+  <section class="featured">
+    <div class="featured-copy">
+      <div class="eyebrow">NEW COLLECTION</div>
+      <h2>Find Your Signature Style</h2>
+      <p>Browse the latest Zorvani collection and build a wardrobe around pieces you will actually wear.</p>
+      <a class="btn" href="shop.html">Shop All Products</a>
+    </div>
+    <img src="images/hero-banner.jpg" alt="Zorvani new collection">
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h3>ZORVANI</h3>
+      <p>Your destination for premium fashion and lifestyle essentials.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="category.html">Categories</a>
+      <a href="about.html">About</a>
+    </div>
+    <div>
+      <h4>Customer Service</h4>
+      <a href="contact.html">Contact</a>
+      <a href="#">Returns</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+    </div>
+    <div>
+      <h4>Newsletter</h4>
+      <p>Get new drops and exclusive offers.</p>
+      <div class="newsletter">
+        <input type="email" placeholder="Your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Zorvani. All Rights Reserved.</div>
+</footer>
 </body>
 </html>

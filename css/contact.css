@@ -1,0 +1,13 @@
+/* =========================================================
+   ZORVANI — CONTACT PAGE
+   ========================================================= */
+
+.page-contact .contact-details p {
+    margin-bottom: 0.7rem;
+}
+
+.page-contact .support-hours {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 0.0625rem solid var(--border);
+}

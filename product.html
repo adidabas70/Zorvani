@@ -1,28 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Product Details | Zorvani</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common/style.css">
+<link rel="stylesheet" href="css/product.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="home.html" class="logo">
-            🛍️ Zorvani
-        </a>
-        <div class="nav-links">
-            <a href="home.html">Home</a>
-            <a href="products.html">Products</a>
-            <a href="category.html">categories</a>
-            <a href="about.html">About us</a>
-            <a href="account.html"><i class="fa-solid fa-user"></i></a>
-            <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
-            <a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
-        </div>
-        
-    </nav>
+
+<header class="site-header">
+  <div class="topbar">
+    <span>🚚 Free Delivery on orders over ₹999</span>
+    <span>Track Order &nbsp; • &nbsp; Help & Support &nbsp; • &nbsp; Returns</span>
+    <span>☎ Contact Us &nbsp; +91 7078409952</span>
+  </div>
+  <nav class="nav">
+    <a class="logo" href="index.html">ZORVANI</a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="category.html">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="navicons">
+      <a href="shop.html">⌕</a>
+      <a href="account.html">♙</a>
+      <a href="wishlist.html">♡</a>
+      <a href="cart.html">🛍</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container page">
+
+<div class="tabs"><button class="active">Home</button><button>Shop</button><button>Shoes</button></div>
+<div class="two-col" style="grid-template-columns:1.1fr .9fr">
+  <section class="panel"><img src="images/product-3.jpg" style="width:100%;max-height:560px;object-fit:cover;border-radius:8px"><div class="grid4" style="margin-top:14px"><img src="images/product-3.jpg"><img src="images/category-shoes.jpg"><img src="images/product-1.jpg"><img src="images/product-4.jpg"></div></section>
+  <section class="panel"><div class="eyebrow">RUNNER SERIES</div><h1 style="font-size:33px">ZRV Runner Pro</h1><p>★★★★★ <span class="muted">(120 Reviews)</span></p><div class="price" style="font-size:25px;margin:8px 0">₹2,499 <span class="old">₹3,199</span></div><p class="muted">Lightweight comfort with a sleek everyday silhouette.</p>
+  <div class="field" style="margin-top:16px"><label>Size</label><div class="qty"><button>7</button><button>8</button><button>9</button><button>10</button><button>11</button></div></div>
+  <div class="field"><label>Quantity</label><div class="qty"><button>−</button><button>1</button><button>+</button></div></div>
+  <a class="btn" href="cart.html" style="display:block;text-align:center">Add to Cart</a>
+  <a class="btn dark" href="checkout.html" style="display:block;text-align:center;margin-top:9px">Buy Now</a>
+  <div class="section" style="padding:22px 0 0"><h3>Description</h3><ul style="margin-left:17px;color:#bbb;font-size:12px"><li>Breathable upper for daily comfort</li><li>Cushioned sole for all-day support</li><li>Easy-care finish</li><li>Perfect for casual and active wear</li></ul></div></section>
+</div>
+<section class="section"><div class="section-title"><h2>Related Products</h2></div><div class="grid4">
+<article class="card"><img src="images/product-1.jpg"><h3>Black Hoodie</h3><div class="price">₹1,499</div></article>
+<article class="card"><img src="images/product-2.jpg"><h3>Denim Jacket</h3><div class="price">₹1,799</div></article>
+<article class="card"><img src="images/product-4.jpg"><h3>Classic Watch</h3><div class="price">₹3,199</div></article>
+<article class="card"><img src="images/product-5.jpg"><h3>Leather Bag</h3><div class="price">₹2,099</div></article>
+</div></section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h3>ZORVANI</h3>
+      <p>Your destination for premium fashion and lifestyle essentials.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="category.html">Categories</a><a href="about.html">About</a>
+    </div>
+    <div>
+      <h4>Customer Service</h4>
+      <a href="contact.html">Contact</a><a href="#">Returns</a><a href="#">Privacy Policy</a><a href="#">Terms</a>
+    </div>
+    <div>
+      <h4>Newsletter</h4>
+      <p>Get new drops and exclusive offers.</p>
+      <div class="newsletter"><input placeholder="Your email"><button>Subscribe</button></div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Zorvani. All Rights Reserved.</div>
+</footer>
+
 </body>
 </html>

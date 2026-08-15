@@ -1,0 +1,19 @@
+/* =========================================================
+   ZORVANI — SHOP PAGE
+   ========================================================= */
+
+.page-shop .section-title select {
+    min-width: 9rem;
+    padding: 0.55rem 0.7rem;
+    background: var(--bg-secondary);
+    border: 0.0625rem solid var(--border-light);
+    color: var(--white);
+    border-radius: var(--radius-sm);
+}
+
+@media (max-width: 900px) {
+    .page-shop .section-title {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

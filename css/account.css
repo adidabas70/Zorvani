@@ -1,0 +1,11 @@
+/* =========================================================
+   ZORVANI — ACCOUNT / PROFILE PAGE
+   ========================================================= */
+
+.page-account .account-stat {
+    min-height: 7rem;
+}
+
+.page-account .account-orders {
+    overflow-x: auto;
+}

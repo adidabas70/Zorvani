@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Wishlist | Zorvani</title>
+<title>Shop | Zorvani</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/common/style.css">
-<link rel="stylesheet" href="css/wishlist.css">
+<link rel="stylesheet" href="css/shop.css">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
     <a class="logo" href="index.html">ZORVANI</a>
     <div class="navlinks">
       <a href="index.html">Home</a>
-      <a href="shop.html">Shop</a>
+      <a class="active" href="shop.html">Shop</a>
       <a href="category.html">Categories</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
@@ -38,12 +38,25 @@
 
 <main class="container page">
 
-<div class="section-title"><div><div class="eyebrow">WISHLIST</div><h1>My Wishlist (4)</h1></div></div>
-<div class="grid4">
-<article class="card"><img src="images/product-2.jpg"><h3>Denim Jacket</h3><div class="price">₹1,799</div><a class="btn dark" href="cart.html" style="margin-top:10px">Add to Cart</a></article>
-<article class="card"><img src="images/product-3.jpg"><h3>Runner Sneakers</h3><div class="price">₹2,499</div><a class="btn dark" href="cart.html" style="margin-top:10px">Add to Cart</a></article>
-<article class="card"><img src="images/product-4.jpg"><h3>Classic Watch</h3><div class="price">₹3,199</div><a class="btn dark" href="cart.html" style="margin-top:10px">Add to Cart</a></article>
-<article class="card"><img src="images/product-5.jpg"><h3>Leather Bag</h3><div class="price">₹2,099</div><a class="btn dark" href="cart.html" style="margin-top:10px">Add to Cart</a></article>
+<section class="section-title"><div><div class="eyebrow">SHOP</div><h1>All Products</h1><p class="muted">Showing 1–12 of 24 products</p></div><select style="background:#111;color:#fff;border:1px solid #333;padding:9px"><option>Featured</option><option>Newest</option><option>Price Low</option></select></section>
+<div class="two-col">
+  <aside class="sidebar">
+    <h3>Categories</h3><a href="#">All</a><a href="#">Men</a><a href="#">Women</a><a href="#">Shoes</a><a href="#">Accessories</a><a href="#">Bags</a><a href="#">Watches</a>
+    <hr style="border-color:#2b2b2b;margin:14px 0">
+    <h3>Filter By Price</h3><p class="muted">₹500 — ₹5,000</p>
+    <h3 style="margin-top:18px">Rating</h3><p>★★★★★</p><p>★★★★☆</p><p>★★★☆☆</p>
+    <h3 style="margin-top:18px">Size</h3><p class="muted">S &nbsp; M &nbsp; L &nbsp; XL</p>
+  </aside>
+  <section class="grid4">
+    <article class="card"><img src="images/product-1.jpg"><h3>Black Hoodie</h3><div class="price">₹1,499</div></article>
+    <article class="card"><img src="images/product-2.jpg"><h3>Denim Jacket</h3><div class="price">₹1,799</div></article>
+    <article class="card"><img src="images/product-3.jpg"><h3>White Sneakers</h3><div class="price">₹2,499</div></article>
+    <article class="card"><img src="images/product-4.jpg"><h3>Classic Watch</h3><div class="price">₹3,199</div></article>
+    <article class="card"><img src="images/product-5.jpg"><h3>Leather Bag</h3><div class="price">₹2,099</div></article>
+    <article class="card"><img src="images/category-accessories.jpg"><h3>Accessories</h3><div class="price">₹899</div></article>
+    <article class="card"><img src="images/category-women.jpg"><h3>Women's Edit</h3><div class="price">₹1,499</div></article>
+    <article class="card"><img src="images/category-men.jpg"><h3>Men's Edit</h3><div class="price">₹1,799</div></article>
+  </section>
 </div>
 
 </main>

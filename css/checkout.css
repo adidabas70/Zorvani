@@ -1,0 +1,18 @@
+/* =========================================================
+   ZORVANI — CHECKOUT PAGE
+   ========================================================= */
+
+.page-checkout .checkout-layout {
+    align-items: start;
+}
+
+.page-checkout .checkout-summary {
+    position: sticky;
+    top: 8rem;
+}
+
+@media (max-width: 900px) {
+    .page-checkout .checkout-summary {
+        position: static;
+    }
+}
